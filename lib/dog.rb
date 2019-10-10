@@ -52,7 +52,7 @@ class Dog
         dog_breed = row[2]
         dog_hash = {:id => dog_id, :name => dog_name, :breed => dog_breed}
         new_dog = Dog.new(dog_hash)
-        new_dog        
+        new_dog
     end
 
     def self.find_by_id(id)
